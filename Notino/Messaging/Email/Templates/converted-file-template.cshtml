@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+          rel="stylesheet" />
+    <style>
+        body {
+            width: 100%;
+            margin: 15px;
+            font-family: 'Roboto';
+            background-color: #eeeeee;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #1976da;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.2rem;
+            text-align: center;
+        }
+
+        .btn-container {
+            width: 100%;
+            text-align: center;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #1976da;
+            color: #ffffff !important;
+            border: none;
+            border-radius: 5px;
+            padding: 20px 35px;
+            text-align: center;
+            font-size: 1.8rem;
+            margin-top: 25px;
+            text-decoration: none;
+            box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <h1> Your file was converted. </h1>
+
+    <p>If you didn't request to convert a file, ignore this email please.</p>
+
+    <div class="btn-container">
+        <a href="@Model.RedirectUrl" class="button"><span>Get file</span></a>
+    </div>
+</body>
+</html>
